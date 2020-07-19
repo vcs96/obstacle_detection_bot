@@ -32,7 +32,7 @@ void loop() {
 
   if (distance < 20)
   {
-    digitalWrite(IN2, LOW);   \\ takes a left turn incase an object is less than 20cm in front of the sensor
+    digitalWrite(IN2, LOW);   \\ takes a left turn incase an object is less than 20cm in front of the ultrasonic sensor
     digitalWrite(IN1, HIGH);
     digitalWrite(IN4, LOW);
     digitalWrite(IN3, LOW);
